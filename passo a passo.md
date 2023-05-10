@@ -62,6 +62,24 @@
 14. adicionado no tsconfig.json "noImplicitAny": true, para não aceitar o tipo any como padrão;
 15. exemplo de uso de tipos de variaveis constructor(data: Date, quantidade: number, valor: number);
 16. refatorado todo o codigo inserido o tipo para cada função e variavéis.
-17. 
+17. criado negociacoes.ts 
+
+```js
+    import { Negociacao } from "./negociacao.js";
+
+    export class Negociacoes {
+        private negociacoes: Array<Negociacao> = [];
+
+        adiciona(negociacao : Negociacao) {
+            this.negociacoes.push(negociacao);
+        }
+        
+        lista(): Array<Negociacao> {
+            return this.negociacoes;        
+        }
+    }
+```
+
+18.
 
 
