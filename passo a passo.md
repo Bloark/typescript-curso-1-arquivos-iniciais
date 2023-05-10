@@ -80,6 +80,12 @@
     }
 ```
 
-18.
+18. usando ReadonlyArray para não pemitir alteração de remoção no Array.
+```js
+  lista(): ReadonlyArray<Negociacao> {
+        return this.negociacoes;        
+    }
+```
+19. 
 
 
