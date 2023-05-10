@@ -8,21 +8,20 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 📋 Pré-requisitos
 
-* @babel/code-frame":"version": "7.12.13",     
+* @babel/code-frame":"version": "7.12.13",
 * @babel/helper-validator-identifier":"version": "7.12.11"
 * @babel/highlight":"version": "7.13.8",
 * @babel/helper-validator-identifier": "^7.12.11",
 * @chalk": "^2.0.0",
 * @js-tokens": "^4.0.0"
-      
 
 ### 🔧 Instalação
 
 * npm install
+* npm run start 
 * npm run server
 
 ## 🛠️ Construído com
-
 
 * [NPM](https://docs.npmjs.com/) - Gerenciado de dependências
 * [JAVASCRIPT](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação
