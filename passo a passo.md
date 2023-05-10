@@ -36,6 +36,28 @@
 9. automatizando a compilação de arquivos
 10. incluir no package.json em script "watch" : "tsc -w"
 11. inicializar com npm run start 
+12. criar controller para intergagir com a pagina.
+```js
+        export class NegociacaoController {
 
+            private inputData; 
+            private inputQuantidade;
+            private inputValor;
+
+            constructor() {
+                this.inputData = document.querySelector('#data');
+                this.inputQuantidade = document.querySelector('#quantidade');
+                this.inputValor = document.querySelector('#valor');
+            }
+
+            adiciona() {
+                console.log(this.inputData);
+                console.log(this.inputQuantidade);
+                console.log(this.inputValor);
+            }
+        }
+```
+
+13. 
 
 
