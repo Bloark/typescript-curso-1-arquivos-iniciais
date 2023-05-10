@@ -58,6 +58,9 @@
         }
 ```
 
-13. 
+13. tipagem no typescript
+14. adicionado no tsconfig.json "noImplicitAny": true, para não aceitar o tipo any como padrão;
+15. exemplo de uso de tipos de variaveis constructor(data: Date, quantidade: number, valor: number);
+16.
 
 
