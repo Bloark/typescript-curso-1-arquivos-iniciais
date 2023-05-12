@@ -195,4 +195,19 @@ export class View<T> {
 ```
 
 25. Centralizando updates e aceitando apenas dias uteis.
-26. 
+26. Refatorado o métodos para dias uteis
+27. criado uma class enums para lidar com os dias da semana.
+```js
+    export enum DiasDaSemana {
+
+        DOMINGO = 0,
+        SEGUNDA = 1,
+        TERCA = 2,
+        QUARTA = 3,
+        QUINTA = 4,
+        SEXTA = 5,
+        SABADO = 6
+
+    }
+```
+28.
