@@ -7,7 +7,7 @@ export class NegociacaoController {
     constructor() {
         this.negociacoes = new Negociacoes();
         this.negociacoesView = new NegociacoesView('#negociacoesView', true);
-        this.mensagemView = new MensagemView('#mensagemView', false);
+        this.mensagemView = new MensagemView('#mensagemView');
         this.SABADO = 6;
         this.DOMINGO = 0;
         this.inputData = document.querySelector('#data');
