@@ -194,4 +194,5 @@ export class View<T> {
     }
 ```
 
-25. 
+25. Centralizando updates e aceitando apenas dias uteis.
+26. 
