@@ -122,4 +122,8 @@
     }
 ```
 
-20. 
+20. inserido métodos para inserir dados na tabela.
+21. configurado a linha para exibição da Data.
+```js
+    <td>${new Intl.DateTimeFormat().format(negociacao.data)}</td>
+```
