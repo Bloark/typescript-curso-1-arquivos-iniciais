@@ -210,4 +210,6 @@ export class View<T> {
 
     }
 ```
-28.
+28. implemnetando métodos estátiscos e protegendos o templates de alterações;
+29. Removendo comentários adiocionado no tsconfig "removeComments": true;
+30. Usando o  "strictNullChecks": true
