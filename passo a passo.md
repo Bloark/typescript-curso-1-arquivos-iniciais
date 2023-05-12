@@ -127,4 +127,27 @@
 ```js
     <td>${new Intl.DateTimeFormat().format(negociacao.data)}</td>
 ```
-22. Criar Mensagem View 
+22. criado a mensagem-View para mostrar uma mensagem quando é adicionado o item.
+```js
+export class MensagemView {
+    private element: HTMLElement;
+    
+    constructor(seletor: string) {
+        this.element = document.querySelector(seletor);        
+    }
+    
+    template(model: string): string{
+        return `
+            <p class="alert alert-info">${model}</p>        
+        `
+    }
+
+    update(model: string): void{
+        const template = this.template(model)
+        this.element.innerHTML = template;
+    }
+
+}
+```
+
+23.
