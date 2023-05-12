@@ -127,3 +127,4 @@
 ```js
     <td>${new Intl.DateTimeFormat().format(negociacao.data)}</td>
 ```
+22. Criar Mensagem View 
