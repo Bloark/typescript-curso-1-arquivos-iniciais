@@ -173,4 +173,25 @@ export class View<T> {
 }
 ```
 
-24. 
+24. transformar a classe em abstract, força aimplementa o método template.
+
+```js
+    export abstract class View<T> {
+
+        protected elemento: HTMLElement;
+
+        constructor(seletor: string) {
+            this.elemento = document.querySelector(seletor);
+        }
+        
+        update(model: T){
+            const template = this.template(model)
+            this.elemento.innerHTML = template;
+        }
+
+        abstract template(model: T): string;
+
+    }
+```
+
+25. 
