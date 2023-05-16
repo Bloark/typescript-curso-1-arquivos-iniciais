@@ -1,4 +1,4 @@
-# TYPESCRIPT CURSO 1
+# TYPESCRIPT (Básico)
 
 O objetivo do projeto é disponibilizar o arquivos necessários para construçãoa de projetos baseado em typescript como forma de aprendizado, com temas básico e uso deles.
 
@@ -18,7 +18,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 ### 🔧 Instalação
 
 * npm install
-* npm run start 
+* npm run start
 * npm run server
 
 ## 🛠️ Construído com
